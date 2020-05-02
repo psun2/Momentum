@@ -1,0 +1,11 @@
+.column {
+  width: 100%;
+}
+
+.clock {
+  color: var(--font-color);
+  font-size: var(--font-title);
+  font-weight: bold;
+  padding-bottom: var(--font-micro);
+  text-align: center;
+}

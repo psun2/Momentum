@@ -1,0 +1,30 @@
+.todo {
+  display: none;
+}
+
+.todo__list li {
+  margin-top: 0.5rem;
+}
+
+.todo__list li i {
+  margin-right: 0.5rem;
+  color: #eb4034;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.todo__input {
+  border-radius: 2.5rem;
+  padding: 0.2rem 0.5rem;
+  display: none;
+}
+
+.todo__input,
+.todo__input:focus {
+  border: none;
+  outline: none;
+}
+
+.showing {
+  display: block;
+}

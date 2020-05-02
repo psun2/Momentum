@@ -1,0 +1,32 @@
+.name,
+.js-nameform {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+.name {
+  font-size: 1.5rem;
+  padding: 0.5rem 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.js-name i {
+  margin-left: 0.7rem;
+  color: #eb4034;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.js-nameinput {
+  border-radius: 2.5rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.js-nameinput,
+.js-nameinput:focus {
+  border: none;
+  outline: none;
+}

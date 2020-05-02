@@ -1,0 +1,18 @@
+.add {
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: #ff0000;
+  border-radius: 50%;
+  text-align: center;
+  /* line-height: 2.7rem; */
+  cursor: pointer;
+}
+
+.add i {
+  padding: 1rem;
+  position: absolute;
+  right: -0.1rem;
+}

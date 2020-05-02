@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/5d1d5aa1e7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/clock.js"></script>
+    <script defer src="./js/greeting.js"></script>
+    <script defer src="./js/toDo.js"></script>
+    <script defer src="./js/bg.js"></script>
+    <script defer src="./js/weather.js"></script>
+    <title>Momentum</title>
+  </head>
+  <body>
+    <div class="column">
+      <h1 class="clock js-clock"></h1>
+      <div class="input__column">
+        <form class="form js-form">
+          <input type="text" placeholder="What is your name?" />
+        </form>
+        <h4 class="greetings js-greetings">
+          평소엔 hidden none name을 받고 name 출력
+        </h4>
+        <div class="resetBtn js-resetBtn">
+          <i class="fas fa-trash-restore-alt"></i>
+        </div>
+      </div>
+    </div>
+    <h4 class="js-weather">현재 온도 / 도시</h4>
+    <div class="toDo__column">
+      <form action="" class="js-toDoForm">
+        <input type="text" placeholder="Write a to do" />
+      </form>
+      <ul class="js-toDoList"></ul>
+    </div>
+  </body>
+</html>

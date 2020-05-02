@@ -1,0 +1,39 @@
+body {
+  background-color: red;
+  color: aqua;
+}
+
+form,
+h4,
+.resetBtn,
+.js-toDoForm,
+.js-toDoTitle {
+  display: none;
+}
+
+i {
+  cursor: pointer;
+}
+
+.showing {
+  display: block;
+}
+
+.bgimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: faedIn 0.5s linear;
+}
+
+@keyframes faedIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

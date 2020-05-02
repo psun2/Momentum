@@ -1,0 +1,11 @@
+@media screen and (min-width: 360px) /* and (min-height: 950px) */ {
+  body {
+    background-position: left 25%;
+
+    /* 연속해 나오는 부분을 잘라줍니다. */
+    background-repeat: no-repeat;
+
+    /* 화면에 꽉차게 합니다. */
+    background-size: cover;
+  }
+}

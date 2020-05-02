@@ -1,0 +1,21 @@
+.toDo__column .js-toDoForm input {
+  margin-top: calc(var(--font-micro));
+  padding: calc(var(--font-micro));
+}
+
+.js-toDoList li {
+  width: 100%;
+  margin: calc(var(--font-micro)) 0;
+  font-size: var(--font-medium);
+  color: var(--inherit-colot);
+  font-weight: 500;
+  display: flex;
+  text-transform: uppercase;
+  max-width: 194.59px;
+}
+
+.js-toDoList li i {
+  margin-right: var(--font-micro);
+  color: red;
+  cursor: pointer;
+}

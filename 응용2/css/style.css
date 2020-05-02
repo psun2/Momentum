@@ -1,0 +1,23 @@
+@import './reset.css';
+@import './bg.css';
+@import './greeting.css';
+@import './toDo.css';
+@import './clock.css';
+@import './weather.css';
+@import './add.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #6a676e;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,6 @@
+.greetings {
+  color: var(--color-medium);
+  font-size: var(--font-medium);
+  padding-top: var(--font-micro);
+  text-align: center;
+}

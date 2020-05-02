@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import './reset.css';
+@import './clock.css';
+@import './form.css';
+@import './greeting.css';
+@import './media.css';
+@import './toDo.css';
+@import './bg.css';
+@import './weather.css';
+
+:root {
+  --font-color: #ffebee;
+  --color-medium: #757ce8;
+  --inherit-colot: #fafafc;
+
+  --font-size: 10px;
+  --font-title: 3rem;
+  --font-medium: 1.5rem;
+  --font-micro: 0.8rem;
+
+  --border-radius: 30rem;
+
+  --background-color: #696978;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bangers', cursive;
+  font-size: var(--font-size);
+  height: 100vh;
+  /* background-image: url(../img/image.png); */
+
+  /* 연속해 나오는 부분을 잘라줍니다. */
+  /* background-repeat: no-repeat; */
+
+  /* 화면에 꽉차게 합니다. */
+  /* background-size: cover; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--inherit-colot);
+  background-color: var(--background-color);
+}

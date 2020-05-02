@@ -1,0 +1,75 @@
+.form,
+.greetings,
+.input__column .resetBtn,
+.js-toDoForm,
+.js-toDoList {
+  text-align: center;
+  display: none;
+}
+
+.form input {
+  padding: 5px 10px;
+}
+
+.showing {
+  display: block;
+}
+
+.input__column .showing {
+  display: block;
+}
+
+input,
+input:focus {
+  border: none;
+  outline: none;
+  border-radius: var(--border-radius);
+  /* animation: drop 3s linear; */
+  animation: float 5s linear infinite 3s;
+}
+
+input {
+  animation: drop 3s linear;
+}
+input:focus {
+  animation: float 3s linear infinite;
+}
+
+.resetBtn {
+  background-clip: border-box;
+  padding: 10px;
+  font-size: var(--font-medium);
+  display: flex;
+  justify-content: center;
+  color: red;
+  cursor: pointer;
+  padding-bottom: 0;
+}
+
+.input__column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes float {
+  0% {
+    border: 1px solid white;
+  }
+  50% {
+    transform: translateY(0.2rem);
+    border: 1px solid aqua;
+  }
+  100% {
+    border: 1px solid white;
+  }
+}
+
+@keyframes drop {
+  from {
+    transform: translateY(-50rem);
+  }
+  to {
+    transform: none;
+  }
+}
